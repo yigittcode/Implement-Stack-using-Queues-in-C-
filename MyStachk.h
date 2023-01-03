@@ -42,6 +42,21 @@ public:
 
 
     }
+//        int top() {
+//        int target ;
+//      for (int i =0; i< len; i++){
+//
+//          int value = myQueue.front();
+//          myQueue.pop();
+//          myQueue.push(value);
+//          if (i == len -2){
+//              target = myQueue.front();
+//          }
+//      }
+//
+//        return target;
+//    }
+    
 
     bool empty() {
         if(len ==0) return true;
